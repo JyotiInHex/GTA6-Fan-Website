@@ -1,110 +1,84 @@
-# 🎮 Grand Theft Auto VI — Fan Website
+# 🎮 Grand Theft Auto VI — Cinematic Fan Website
 
-A **fully animated, production-grade fan website** for Grand Theft Auto VI, built as a portfolio project showcasing modern web development techniques.
+A fully animated, high-performance fan website inspired by **Grand Theft Auto VI**.
 
-## 🚀 Live Demo
-Deploy to Vercel with one click!
+This project was built as a **portfolio showcase** to demonstrate advanced frontend engineering, animation systems, and production-level UI execution using modern web technologies.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/gta6-portfolio)
-
----
-
-## ✨ Features
-
-- **Smooth Scroll** — Lenis smooth scrolling throughout
-- **GSAP ScrollTrigger** — Advanced scroll-based animations on every section
-- **Framer Motion** — Page transitions, entrance animations, modal overlays
-- **Parallax Hero** — Cinematic parallax effect on the main hero
-- **Live Countdown** — Real-time countdown to November 19, 2026
-- **Interactive Characters** — Click-to-expand character modals with full bios
-- **World Explorer** — Click-to-explore location cards with details
-- **Trailer Player** — Embedded YouTube trailers with custom play UI
-- **Custom Cursor** — Animated cursor with hover states
-- **Responsive** — Fully responsive on all screen sizes
-- **Performance Optimized** — Next.js Image optimization, lazy loading
+It recreates the cinematic energy of a AAA game launch site through scroll-driven storytelling, immersive transitions, and responsive interaction design.
 
 ---
 
-## 🛠 Tech Stack
+## 🎯 Purpose
 
-| Technology | Purpose |
-|---|---|
-| **Next.js 14** | App Router, SSR, Image optimization |
-| **TypeScript** | Type safety |
-| **Tailwind CSS** | Utility-first styling |
-| **Framer Motion** | React animations & transitions |
-| **GSAP + ScrollTrigger** | Scroll-based animations & parallax |
-| **Lenis** | Smooth scroll |
+This is an independent fan-made experience created to showcase:
 
----
+- Advanced scroll-based animation architecture  
+- GSAP + ScrollTrigger timeline orchestration  
+- Interactive UI systems and modal flows  
+- Responsive animation logic using matchMedia  
+- Performance-focused frontend structure  
+- Clean, scalable component architecture  
 
-## 📦 Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+The goal was not to clone an existing website — but to build a cinematic, high-end interactive experience inspired by the GTA VI universe.
 
 ---
 
-## 🗂 Project Structure
+## ✨ Key Features
 
-```
-src/
-├── app/
-│   ├── page.tsx          # Home page
-│   ├── trailers/         # Trailers page
-│   ├── characters/       # Characters page
-│   ├── world/            # World/locations page
-│   ├── layout.tsx        # Root layout
-│   └── globals.css       # Global styles
-├── components/
-│   ├── Navbar.tsx         # Navigation
-│   ├── ParallaxHero.tsx   # Hero with parallax
-│   ├── Countdown.tsx      # Release countdown
-│   ├── MarqueeSection.tsx # Scrolling marquee
-│   ├── StorySection.tsx   # Story with GSAP
-│   ├── CharacterPreview.tsx
-│   ├── WorldSection.tsx
-│   ├── CustomCursor.tsx
-│   ├── SmoothScroll.tsx
-│   └── Footer.tsx
-```
+### 🎬 Cinematic Scroll Experience
+- Horizontal pinned scroll sections  
+- Layered parallax effects  
+- Timeline-synced container and image motion  
+- Smooth scroll integration  
+
+### 🎭 Interactive Systems
+- Animated character and world exploration sections  
+- Trailer modal system with embedded video playback  
+- Hover-based typography transitions  
+- Custom cursor and micro-interactions  
+
+### 📱 Responsive by Design
+- Desktop: cinematic scroll-driven storytelling  
+- Mobile: native horizontal swipe with snap behavior  
+- Resize-safe animation logic  
+
+### ⚡ Performance Optimized
+- Optimized rendering strategy  
+- Lazy-loaded animations  
+- Transform separation to prevent animation conflicts  
+- Smooth performance across devices  
 
 ---
 
-## 🚀 Deploy to Vercel
+## 👨‍💻 About Me
 
-1. Push this repository to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Click **Deploy** — no configuration needed!
+I am a frontend-focused developer passionate about building immersive digital experiences.
+
+My focus areas include:
+
+- Advanced animation systems  
+- Scroll-driven storytelling interfaces  
+- High-end UI/UX engineering  
+- Performance optimization  
+- Modern frontend architecture with Next.js & TypeScript  
+
+This project reflects my ability to combine visual design sensibility with engineering precision to deliver interactive, production-grade web experiences.
+
+If you're looking for someone who can build cinematic, animation-heavy interfaces with clean architecture and scalable structure — this project represents that capability.
 
 ---
 
 ## ⚠️ Disclaimer
 
-This is a **fan-made portfolio project** and is **not affiliated with Rockstar Games or Take-Two Interactive** in any way.
+This is an independent fan-made portfolio project.
 
-All GTA VI images, logos, character names, and trademarks are the property of Rockstar Games / Take-Two Interactive.
+It is **not affiliated with, endorsed by, or sponsored by Rockstar Games or Take-Two Interactive**.
+
+Grand Theft Auto and GTA VI are trademarks of Rockstar Games.  
+All official assets, trademarks, and intellectual property belong to their respective owners.
 
 ---
 
 ## 📄 License
 
-MIT — Free to use for portfolio/learning purposes.
-
----
-
-*Built with ❤️ as a portfolio showcase project.*
+MIT — Free to use for learning and portfolio inspiration.
