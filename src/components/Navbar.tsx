@@ -479,14 +479,6 @@ function MenuOverlay({ onClose }: { onClose: () => void }) {
         // Override for mobile via inline style trick — we use CSS breakpoint via
         // a wrapping div instead since Framer variants can't read CSS breakpoints.
       >
-        {/* Mobile: slide-up overlay — covers full screen on small devices */}
-        {/* We re-animate for mobile using a CSS media wrapper approach:
-            On mobile the left panel is hidden so right panel IS the full overlay.
-            We want it to slide up from bottom on mobile.
-            Solution: render a second motion.div clone for mobile, hide desktop one.
-            Simpler: use CSS to control which variant plays via data attribute. */}
-
-        {/* Noise */}
         <div
           aria-hidden="true"
           className="absolute inset-0 opacity-[0.02] pointer-events-none z-0"
@@ -825,9 +817,8 @@ export default function Navbar() {
         </div>
       </motion.nav>
 
-      <AnimatePresence>
-        {menuOpen && <MenuOverlay onClose={() => setMenuOpen(false)} />}
-      </AnimatePresence>
+      {menuOpen && <MenuOverlay onClose={() => setMenuOpen(false)} />}
+      
     </>
   );
 }
