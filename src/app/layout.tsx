@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import CustomCursor from "@/components/CustomCursor";
 import SmoothScroll from "@/components/SmoothScroll";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Grand Theft Auto VI | November 19, 2026",
@@ -45,6 +46,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
