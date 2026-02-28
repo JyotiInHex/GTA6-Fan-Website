@@ -32,7 +32,7 @@ export default function StorySection() {
             start: "top 80%",
             end: "bottom 20%",
           },
-        }
+        },
       );
 
       // Image parallax
@@ -48,7 +48,7 @@ export default function StorySection() {
             trigger: imageRef.current,
             start: "top 85%",
           },
-        }
+        },
       );
 
       // Big text reveal
@@ -64,7 +64,7 @@ export default function StorySection() {
             trigger: ".big-story-text",
             start: "top 80%",
           },
-        }
+        },
       );
     }, sectionRef);
 
@@ -101,33 +101,59 @@ export default function StorySection() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Text */}
           <div ref={textRef} className="space-y-6">
-            <p className="story-para text-label text-gta-orange mb-8">The Story</p>
-
-            <p className="story-para text-xl md:text-2xl text-white/80 font-light leading-relaxed tracking-wide" style={{ fontFamily: "var(--font-body)" }}>
-              Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the{" "}
-              <span className="text-gta-orange font-medium">darkest side of the sunniest place in America.</span>
+            <p className="story-para text-label text-gta-orange mb-8">
+              The Story
             </p>
 
-            <p className="story-para text-lg text-white/50 leading-relaxed tracking-wide" style={{ fontFamily: "var(--font-body)" }}>
-              In the middle of a criminal conspiracy stretching across the state of Leonida — forced to rely on each other more than ever if they want to make it out alive.
+            <p
+              className="story-para text-xl md:text-2xl text-white/80 font-light leading-relaxed tracking-wide"
+              style={{ fontFamily: "var(--font-body)" }}
+            >
+              Jason and Lucia have always known the deck is stacked against
+              them. But when an easy score goes wrong, they find themselves on
+              the{" "}
+              <span className="text-gta-orange font-medium">
+                darkest side of the sunniest place in America.
+              </span>
             </p>
 
-            <div className="story-para pt-4">
-              <div className="h-px w-full bg-gradient-to-r from-gta-orange/50 to-transparent mb-6" />
-              <div className="flex items-center gap-6 text-white/30">
-                <div className="text-center">
-                  <p className="text-display-md text-gta-orange glow-text">2026</p>
-                  <p className="text-label text-xs">Release Year</p>
+            <p
+              className="story-para text-lg text-white/50 leading-relaxed tracking-wide"
+              style={{ fontFamily: "var(--font-body)" }}
+            >
+              In the middle of a criminal conspiracy stretching across the state
+              of Leonida — forced to rely on each other more than ever if they
+              want to make it out alive.
+            </p>
+
+            <div className="story-para pt-6">
+              <div className="h-px w-full bg-gradient-to-r from-gta-orange/50 to-transparent mb-8" />
+
+              <div className="grid grid-cols-2 md:grid-cols-3 text-center">
+                {/* Release Year */}
+                <div className="py-6 md:border-r md:border-white/10">
+                  <p className="text-display-md text-gta-orange glow-text">
+                    2026
+                  </p>
+                  <p className="text-label text-xs text-white/40 tracking-widest">
+                    RELEASE YEAR
+                  </p>
                 </div>
-                <div className="w-px h-12 bg-white/10" />
-                <div className="text-center">
+
+                {/* Platforms */}
+                <div className="py-6 md:border-r md:border-white/10">
                   <p className="text-display-md text-gta-cyan">PS5</p>
-                  <p className="text-label text-xs">& Xbox Series</p>
+                  <p className="text-label text-xs text-white/40 tracking-widest">
+                    & XBOX SERIES
+                  </p>
                 </div>
-                <div className="w-px h-12 bg-white/10" />
-                <div className="text-center">
+
+                {/* Protagonists */}
+                <div className="py-6 col-span-2 lg:col-span-1">
                   <p className="text-display-md text-gta-pink">2</p>
-                  <p className="text-label text-xs">Protagonists</p>
+                  <p className="text-label text-xs text-white/40 tracking-widest">
+                    PROTAGONISTS
+                  </p>
                 </div>
               </div>
             </div>
@@ -149,10 +175,15 @@ export default function StorySection() {
 
             {/* Quote overlay */}
             <div className="absolute bottom-6 left-6 right-6">
-              <p className="text-sm text-white/70 italic" style={{ fontFamily: "var(--font-body)" }}>
+              <p
+                className="text-sm text-white/70 italic"
+                style={{ fontFamily: "var(--font-body)" }}
+              >
                 &ldquo;Another day in paradise, right?&rdquo;
               </p>
-              <p className="text-label text-gta-orange text-xs mt-1">— Jason Duval</p>
+              <p className="text-label text-gta-orange text-xs mt-1">
+                — Jason Duval
+              </p>
             </div>
 
             {/* Decorative border */}
