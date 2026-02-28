@@ -574,7 +574,7 @@ export default function CharactersPage() {
           </p>
 
           {/* Filter buttons */}
-          <div className="flex gap-3 mt-8">
+          <div className="flex flex-wrap gap-3 mt-8">
             {(["All", "Protagonist", "Supporting"] as const).map((f) => (
               <button
                 key={f}
