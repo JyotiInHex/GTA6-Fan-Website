@@ -32,7 +32,6 @@ body {
   color: white;
   font-family: var(--font-body);
   overflow-x: hidden;
-  cursor: none;
 }
 
 /* Custom Cursor */
